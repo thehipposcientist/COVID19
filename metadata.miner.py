@@ -21,6 +21,7 @@ def giveTimeStamp():
   tsObj = time.time()
   strToret = datetime.fromtimestamp(tsObj).strftime('%Y-%m-%d %H:%M:%S')
   print(strToret)
+  print(strToret)
   return strToret
 
 def getJSONData(dir_):
