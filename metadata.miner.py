@@ -20,6 +20,7 @@ from bs4 import BeautifulSoup
 def giveTimeStamp():
   tsObj = time.time()
   strToret = datetime.fromtimestamp(tsObj).strftime('%Y-%m-%d %H:%M:%S')
+  print(strToret)
   return strToret
 
 def getJSONData(dir_):
